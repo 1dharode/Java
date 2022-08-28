@@ -1,0 +1,14 @@
+import java.util.*;
+class FirstClass{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int num,n;
+        System.out.print("Enter a number : ");
+        num=sc.nextInt();
+        n=num;
+        for(int i=1;i<11;i++){
+            num=n*i;
+            System.out.print(n+"*"+i+"="+num+"\n");
+        }
+    }
+}
